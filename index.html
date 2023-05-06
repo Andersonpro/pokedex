@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://assets.pokemon.com/static2/_ui/img/favicon.ico">
+    <title>Pokédex</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <figure>
+                <img class="logo" src="pokemon-logo.png" alt="">
+            </figure>
+        </a>
+        <div class="container-search">
+            <input type="search" id="search" placeholder="Digite o nome ou id do pokemon">
+            <figure class="container-search-img">
+                <img id="search-img" src="search.svg" alt="">
+            </figure>
+        </div>
+
+    </header>
+    <main class="container-master">
+        <ul class="pokemon-list">
+
+        </ul>
+        <button id="button-page-down">MAIS POKÉMONS</button>
+    </main>
+    <script src="functions.js"></script>
+    <script src="pokemon.js"></script>
+</body>
+
+</html>
